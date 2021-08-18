@@ -1,0 +1,44 @@
+R version 4.1.0 (2021-05-18)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 19041)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=Spanish_Mexico.1252  LC_CTYPE=Spanish_Mexico.1252   
+[3] LC_MONETARY=Spanish_Mexico.1252 LC_NUMERIC=C                   
+[5] LC_TIME=Spanish_Mexico.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods  
+[7] base     
+
+other attached packages:
+ [1] agricolae_1.3-5    multcomp_1.4-17    TH.data_1.0-10    
+ [4] MASS_7.3-54        survival_3.2-11    mvtnorm_1.1-2     
+ [7] lme4_1.1-27.1      Matrix_1.3-3       GAD_1.1.1         
+[10] R.methodsS3_1.8.1  matrixStats_0.60.0 dplyr_1.0.7       
+[13] ggplot2_3.3.5      purrr_0.3.4       
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_1.0.7        lattice_0.20-44   zoo_1.8-9        
+ [4] assertthat_0.2.1  digest_0.6.27     utf8_1.2.2       
+ [7] mime_0.11         AlgDesign_1.2.0   R6_2.5.0         
+[10] labelled_2.8.0    evaluate_0.14     highr_0.9        
+[13] pillar_1.6.2      rlang_0.4.11      minqa_1.2.4      
+[16] rstudioapi_0.13   miniUI_0.1.1.1    nloptr_1.2.2.2   
+[19] combinat_0.0-8    rmarkdown_2.9     labeling_0.4.2   
+[22] splines_4.1.0     questionr_0.7.4   munsell_0.5.0    
+[25] shiny_1.6.0       compiler_4.1.0    httpuv_1.6.1     
+[28] xfun_0.24         pkgconfig_2.0.3   htmltools_0.5.1.1
+[31] tidyselect_1.1.1  tibble_3.1.3      codetools_0.2-18 
+[34] fansi_0.5.0       crayon_1.4.1      withr_2.4.2      
+[37] later_1.2.0       grid_4.1.0        nlme_3.1-152     
+[40] xtable_1.8-4      gtable_0.3.0      lifecycle_1.0.0  
+[43] DBI_1.1.1         magrittr_2.0.1    scales_1.1.1     
+[46] farver_2.1.0      promises_1.2.0.1  ellipsis_0.3.2   
+[49] generics_0.1.0    vctrs_0.3.8       boot_1.3-28      
+[52] sandwich_3.0-1    klaR_0.6-15       tools_4.1.0      
+[55] forcats_0.5.1     glue_1.4.2        hms_1.1.0        
+[58] fastmap_1.1.0     yaml_2.2.1        colorspace_2.0-2 
+[61] cluster_2.1.2     knitr_1.33        haven_2.4.1      
