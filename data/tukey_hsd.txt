@@ -1,0 +1,25 @@
+$statistics
+  MSerror Df     Mean       CV      MSD
+    29.05 12 9.570875 56.31466 2.348124
+
+$parameters
+   test name.t ntr StudentizedRange alpha
+  Tukey      A   3         3.772929  0.05
+
+$means
+       expr      std  r      Min      Max       Q25       Q50       Q75
+1 10.051919 1.699048 75 6.438035 13.70864  8.914820  9.807828 11.374352
+2 11.517297 1.535913 75 8.760059 15.67141 10.531427 11.327279 12.213803
+3  7.143408 2.247095 75 2.940420 12.56437  5.571653  6.755534  8.672515
+
+$comparison
+NULL
+
+$groups
+       expr groups
+2 11.517297      a
+1 10.051919      a
+3  7.143408      b
+
+attr(,"class")
+[1] "group"

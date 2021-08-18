@@ -1,0 +1,27 @@
+Linear mixed model fit by REML ['lmerMod']
+Formula: expr ~ 1 + A + (1 | B:A) + (1 | C:B:A)
+   Data: expr_data_2
+
+REML criterion at convergence: 684.4
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.76545 -0.53144 -0.02996  0.59495  2.20017 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ C:B:A    (Intercept) 1.7073   1.3066  
+ B:A      (Intercept) 1.5615   1.2496  
+ Residual             0.5045   0.7103  
+Number of obs: 225, groups:  C:B:A, 75; B:A, 15
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)  10.0519     0.6224  16.151
+A2            1.4654     0.8801   1.665
+A3           -2.9085     0.8801  -3.305
+
+Correlation of Fixed Effects:
+   (Intr) A2    
+A2 -0.707       
+A3 -0.707  0.500
